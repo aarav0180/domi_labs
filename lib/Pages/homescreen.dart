@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:domi_labs/Pages/Detailpage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
@@ -101,7 +102,7 @@ class _SuggestionPageState extends State<SuggestionPage> {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: const BoxDecoration(shape: BoxShape.circle, color: Colors.black),
-            child: IconButton(onPressed: () {}, icon: const Icon(Icons.person, color: Colors.white)),
+            child: IconButton(onPressed: () { Navigator.push(context, MaterialPageRoute(builder: (context) => Detailpage()));}, icon: const Icon(Icons.person, color: Colors.white)),
           ),
           Container(
             padding: const EdgeInsets.all(8),
@@ -127,7 +128,7 @@ class _SuggestionPageState extends State<SuggestionPage> {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: const BoxDecoration(shape: BoxShape.circle, color: Colors.black),
-            child: IconButton(onPressed: () {}, icon: const Icon(Icons.message_outlined, color: Colors.white)),
+            child: IconButton(onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => Detailpage()));}, icon: const Icon(Icons.message_outlined, color: Colors.white)),
           ),
         ],
       ),
@@ -170,7 +171,7 @@ class _SuggestionPageState extends State<SuggestionPage> {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => Detailpage()));},
                 style: ElevatedButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 15), backgroundColor: Colors.white),
                 child: const Text(
                   "Send invite",
