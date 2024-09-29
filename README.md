@@ -1,6 +1,6 @@
 # domi_labs
 
-A new Flutter project.
+Just a simple task.
 
 ## Getting Started
 
