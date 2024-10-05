@@ -4,6 +4,13 @@ Just a simple task.
 
 ## Getting Started
 
+### steps to run the project
+1. just clone it
+2. download the dependencies
+3. and hooray!! you're good to go in this.
+
+## built using provider state management.
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
